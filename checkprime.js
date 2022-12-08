@@ -19,5 +19,8 @@ function checkprime(num)
 
 
 let ans=checkprime(11);
-
-console.log("ans");
+if (ans==true){
+ console.log("Prime") 
+}else{
+  console.log("Not Prime")
+}
